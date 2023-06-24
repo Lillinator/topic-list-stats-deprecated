@@ -1,0 +1,110 @@
+show_topic_views_count:
+  type: bool
+  default: false
+  description:
+    en: "Show the total number of views in the Topic Stats column."
+
+topic_views_count_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Topic views count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+
+topic_views_count_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Font weight of the topic views count if show topic views count setting is enabled. Leave blank to use current default."
+
+topic_views_count_font_color:
+  type: string
+  default: ""
+  description: 
+    en: "Font color of the topic views count if show topic views count setting is enabled. Use CSS color names, hexadecimal color codes or Discourse color variables. Leave blank to use current default."
+
+hide_replies_count:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the replies count from the Topic Stats column."
+
+replies_count_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Replies count font size in px if above hide replies count is not enabled. Use CSS color names, hexadecimal color codes or Discourse color variables. Leave blank to use current default."
+
+replies_count_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Font weight of the replies count if hide replies count is not enabled. Leave blank to use current default."
+
+hide_time_since_latest_activity:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the time since latest activity from the Topic Stats column."
+
+time_since_latest_activity_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Time since latest activity font size in px if above time since last activity is not enabled. Leave blank to use current default."
+
+time_since_latest_activity_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Font weight of the tine since latest activity stat if time since last activity is not enabled. Leave blank to use current default."
+
+time_since_latest_activity_font_color:
+  type: string
+  default: ""
+  description: 
+    en: "Font color of the time since latest activity stat if above time since last activity is not enabled. Use CSS color names, hexadecimal color codes or Discourse color variables. Leave blank to use current default."
+
+time_since_latest_activity_hover_color:
+  type: string
+  default: ""
+  description: 
+    en: "Hover color of the time since latest activity stat if above time since last activity is not enabled. Use CSS color names, hexadecimal color codes or Discourse color variables. Leave blank to use current default."

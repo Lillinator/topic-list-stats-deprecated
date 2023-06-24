@@ -1,0 +1,8 @@
+{
+  "name": "Discourse Topic List Stats",
+  "component": true,
+  "about_url": "https://meta.discourse.org/t/topic-list-stats/269488",
+  "license_url": "https://github.com/Lillinator/topic-list-stats-desktop/blob/main/LICENSE",
+  "authors": "@Lillinator",
+  "theme_version": "1.0"
+}
